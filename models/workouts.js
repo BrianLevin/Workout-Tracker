@@ -23,6 +23,11 @@ const exerciseSchema = new Schhema({
 
     },
 
+    sets: {
+        type: Number,
+        required: true
+
+    },
 
 
 
