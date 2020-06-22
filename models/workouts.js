@@ -28,6 +28,11 @@ const exerciseSchema = new Schhema({
         required: true
 
     },
+    name: {
+        type: String,
+        required: true
+
+    }
 
 
 
@@ -41,9 +46,12 @@ const WorkoutSchema = new Schema({
         required: true
 
     },
+    exercises: [exerciseSchema]
+
+
 
 });
 
-const Book = mongoose.model("Book", BookSchema);
+const Workout = mongoose.model("Workout", WorkoutSchema);
 
-module.exports = Book;
+module.exports = Workout;
