@@ -8,21 +8,35 @@ const exerciseSchema = new Schhema({
 
     },
     duration: {
-        type: Data,
+        type: Number,
         required: true
 
     },
+    weight: {
+        type: Number,
+        required: true
+
+    },
+    reps: {
+        type: Number,
+        required: true
+
+    },
+
+
+
+
+
 
 })
 
 const WorkoutSchema = new Schema({
     day: {
-        type: Data,
+        type: Date,
         required: true
 
     },
-    author: String,
-    title: String
+
 });
 
 const Book = mongoose.model("Book", BookSchema);
