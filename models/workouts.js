@@ -14,24 +14,28 @@ const exerciseSchema = new Schhema({
     },
     weight: {
         type: Number,
-        required: true
+        required: false
 
     },
     reps: {
         type: Number,
-        required: true
+        required: false
 
     },
 
     sets: {
         type: Number,
-        required: true
+        required: false
 
     },
     name: {
         type: String,
         required: true
 
+    },
+    distance: {
+        type: Number,
+        required: false
     }
 
 
