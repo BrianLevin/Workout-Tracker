@@ -3,7 +3,7 @@
 
 
 
- ![](images/randomPasswordImage.png) 
+ ![](images/FitnessTracker.png) 
  
  
 # Badges
