@@ -36,7 +36,7 @@ This is the homepage with previous data:
  ![Completed Workout Screenshot](images/finishedworkout.png)
  
  
- # Badges
+ ## Badges
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/BrianLevin/Personal-Trainer-Portal)
 
@@ -58,7 +58,7 @@ This is the homepage with previous data:
      
 
 
-### Email:
+## Email:
 
         bml201095@gmail.com
         
