@@ -9,7 +9,7 @@ This application allows users to create and track their daily workouts.  The app
 
 This is the homepage with previous data:
 
- ![Home Screenshot](images/Homepage.png)
+ ![Home Screenshot](images/homepage.png)
  
  User clicks on new workout and gets directed to new workout page:
  
