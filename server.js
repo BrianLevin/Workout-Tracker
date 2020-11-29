@@ -14,10 +14,13 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/workout", {
-  useNewUrlParser: true,
-  useFindAndModify: false
-});
+mongoose.connect(
+    process.env.MONGODB_URI || "mongodb://127.0.0.1/workout",
+    {
+      useCreateIndex: true,
+      useNewUrlParser: true
+    }
+  );
 
 // routes
 app.use(require("./routes/api.js"));
